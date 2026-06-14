@@ -152,15 +152,4 @@ cloud-report-tex/
 
 这些文件仅用于本地环境搭建，不影响仓库中代码和报告的阅读。
 
-## 安全说明
-
-仓库不应包含真实云账号凭据。请勿提交以下内容：
-
-- 华为云 AK/SK
-- kubeconfig
-- SWR 登录 token
-- OBS 访问密钥
-- 生产环境 Redis 密码
-
-当前仓库中的 `.env.example`、Secret YAML 等仅用于课程实验示例，真实值应在本地或云控制台中配置。
 
