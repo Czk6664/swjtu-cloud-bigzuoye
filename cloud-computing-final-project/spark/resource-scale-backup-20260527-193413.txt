@@ -1,0 +1,7 @@
+default deploy/backend=1
+default deploy/frontend=1
+default deploy/mqtt-broker=1
+default deploy/mqtt-redis-gateway=1
+monitoring-course deploy/monitoring-grafana=1
+monitoring-course deploy/monitoring-kube-prometheus-operator=1
+monitoring-course sts/prometheus-monitoring-kube-prometheus-prometheus=1
