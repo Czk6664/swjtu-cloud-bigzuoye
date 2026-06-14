@@ -6,7 +6,7 @@
 - 学号：2023112621,2023114337
 - 班级：2023-04班
 
-本目录放在 D 盘课程作业工作区下，作为云计算技术结束大作业工程。它覆盖必做 100 分：第一部分 CCE/K8s 平台搭建 50 分，第二部分 Spark 大数据分析方向 40 分，报告质量 10 分。
+本目录放在 D 盘课程作业工作区下，作为云计算技术大作业。它覆盖必做 100 分：第一部分 CCE/K8s 平台搭建 50 分，第二部分 Spark 大数据分析方向 40 分，报告质量 10 分。
 
 ## 目录结构
 
@@ -183,15 +183,3 @@ kubectl logs <driver-pod-name>
 - 截图清单：[report/screenshot-checklist.md](report/screenshot-checklist.md)
 - 附录文档：[report/appendix-template.md](report/appendix-template.md)
 - 本机验证记录：[report/verification-notes.md](report/verification-notes.md)
-
-## 9. 安全说明
-
-不要提交以下内容：
-
-- 华为云 AK/SK。
-- kubeconfig。
-- Redis 真实密码。
-- OBS 访问密钥。
-- SWR 登录 token。
-
-本大作业仅保留占位符，真实值应通过 `.env`、控制台或本地命令临时注入。
